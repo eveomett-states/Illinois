@@ -10,6 +10,10 @@ Obtain the following data from Restricting Data Hub
 
 [Congressional District data](https://redistrictingdatahub.org/dataset/2021-illinois-congressional-districts-approved-plan/): 2021 Illinois Congressional Districts plan enacted on 10/28/2021
 
+[State House District data](https://redistrictingdatahub.org/dataset/2021-illinois-state-house-adopted-plan/): 2021 State House Approved Plan
+
+[State Senate District data](https://redistrictingdatahub.org/dataset/2021-illinois-state-senate-adopted-plan/): 2021 State Senate Approved Plan
+
 [2020 election data](https://redistrictingdatahub.org/dataset/vest-2020-illinois-precinct-and-election-results/)**:**  VEST 2020 Illinois precinct and election results
 
 [2018 election data](https://redistrictingdatahub.org/dataset/2018-il-election-data-projected-to-2020-vtds/)**:**  VEST 2018 Illinois precinct and election results
@@ -27,6 +31,9 @@ Below is a brief description of each of the listed variables in the attribute ta
 - `VTDST20`: Voting tabulation district FIPS code
 - `GEOID20`: VTD FIPS code
 - `NAME20`: Voting tabulation district name
+- `CD`: Congressional district ID in 2021 enacted congressional map
+- `SEND`: State Senate district for 2021 State Senate Adopted Plan
+- `HDIST`: State House district for 2021 State House of Representatives Districts Plan
 - `TOTPOP`: Total population in 2020 Census
 - `NH_WHITE`: White, non-hispanic, population in 2020 Census
 - `NH_BLACK`: Black, non-hispanic, population in 2020 Census
@@ -70,39 +77,9 @@ Below is a brief description of each of the listed variables in the attribute ta
 - `USS20D`: Number of votes for 2020 Democratic senate candidate
 - `USS20R`: Number of votes for 2020 Republican senate candidate
 - `USS20O`: Number of votes for 2020 other party's senate candidate
-- `CD`: Congressional district ID in 2020 enacted congressional map
-- 
-
-```
-'COM18D',
-'COM18O',
-'COM18R',
-
-Office Codes
-
-AGR - Agriculture Commissioner
-ATG - Attorney General
-AUD - Auditor
-COC - Corporation Commissioner
-COU - City Council Member
-DEL - Delegate to the U.S. House
-GOV - Governor
-H## - U.S. House, where ## is the district number. AL: at large.
-INS - Insurance Commissioner
-LAB - Labor Commissioner
-LAN - Commissioner of Public Lands
-LTG - Lieutenant Governor
-PRE - President
-PSC - Public Service Commissioner
-RRC - Railroad Commissioner
-SAC - State Appeals Court (in AL: Civil Appeals)
-SCC - State Court of Criminal Appeals
-SOS - Secretary of State
-SSC - State Supreme Court
-SPI - Superintendent of Public Instruction
-TRE - Treasurer
-USS - U.S. Senate
-```
+- `COM18D`: Number of votes for 2018 Democratic Comptroller
+- `COM18R`: Number of votes for 2018 Republican Comptroller
+- `COM18O`: Number of votes for 2018 other party's Comptroller
 
 # **Projection**
 
