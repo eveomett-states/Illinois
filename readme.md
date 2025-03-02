@@ -1,6 +1,11 @@
-# Illinois Election Shapefile
+# License
+This data was generated using data from the Redistricting Data Hub.  Any use of this project shall also comply with restrictions on use of data and attribution requirements set forth in the Redistricting Data Hub terms and conditions found at: [https://redistrictingdatahub.org/terms-and-conditions/](https://redistrictingdatahub.org/terms-and-conditions/).
 
-This shapefile was processed by Professor Ellen Veomett and her student Arbie Hsu.
+Use of this project is further governed by the terms of the [Creative Commons Attribution Noncommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/legalcode.en)
+
+# Illinois Election Json
+
+This shapefile was processed by Professor Ellen Veomett and her student Arbie Hsu using the corresponding jupyter notebook.  As part of the cleaning process, precincts were nested within counties and small rook adjacencies (under 30.5 m) were changed to queen adjacencies.
 
 # **Sources**
 
@@ -18,9 +23,11 @@ Obtain the following data from Restricting Data Hub
 
 [2018 election data](https://redistrictingdatahub.org/dataset/2018-il-election-data-projected-to-2020-vtds/)**:**  VEST 2018 Illinois precinct and election results
 
+[2020 County data](https://redistrictingdatahub.org/dataset/illinois-county-pl-94171-2020/): from 2020 Census Redistricting Data (P.L. 94-171) Shapefiles
+
 # **Processing**
 
-Demographic data were aggregated from the census block level and precincts were assigned to districts using [MGGG's proration software](https://github.com/mggg/maup). Election data were also prorated onto VTDs from the original precinct shapefile using the `maup` package.
+Data were cleaned and aggregated in the corresponding jupyter notebook using MGGG’s python library [maup](https://github.com/mggg/maup).
 
 # **Metadata**
 
@@ -80,7 +87,3 @@ Below is a brief description of each of the listed variables in the attribute ta
 - `COM18D`: Number of votes for 2018 Democratic Comptroller
 - `COM18R`: Number of votes for 2018 Republican Comptroller
 - `COM18O`: Number of votes for 2018 other party's Comptroller
-
-# **Projection**
-
-The shapefile uses a UTM NAD83 projection (EPSG: 4269).
