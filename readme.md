@@ -33,11 +33,11 @@ Data were cleaned and aggregated in the corresponding jupyter notebook using MGG
 
 Below is a brief description of each of the listed variables in the attribute table of the VTD shapefile:
 
-- `STATEFP20`: State FIPS code  
-- `COUNTYFP20`: County FIPS code  
-- `GEOID20`: VTD FIPS code  
-- `PCT_CEB20`: Percentage of women who have ever given birth, based on data from the 2020 Census  
-- `COUNTY_NAM20`: County name
+- `STATEFP20`: State FIPS code
+- `COUNTYFP20`: County FIPS code
+- `VTDST20`: Voting tabulation district FIPS code
+- `GEOID20`: VTD FIPS code
+- `NAME20`: Voting tabulation district name
 - `CD`: Congressional district ID in 2021 enacted congressional map
 - `SEND`: State Senate district for 2021 State Senate Adopted Plan
 - `HDIST`: State House district for 2021 State House of Representatives Districts Plan
@@ -68,35 +68,22 @@ Below is a brief description of each of the listed variables in the attribute ta
 - `2MOREVAP`: Two or more races, non-hispanic, voting age population in 2020 Census
 - `ATG18D`: Number of votes for 2018 Democratic attorney general candidate
 - `ATG18R`: Number of votes for 2018 Republican attorney general candidate
-- `AUD18D`: Number of votes for 2018 Democratic Auditor
-- `AUD18R`: Number of votes for 2018 Republican Auditor
-- `COC18D`: Number of votes for 2018 Democratic Corporation Commissioner candidate  
-- `COC18R`: Number of votes for 2018 Republican Corporation Commissioner candidate  
-- `COC18O`: Number of votes for 2018 other Corporation Commissioner candidates  
-- `COC20R`: Number of votes for 2020 Republican Corporation Commissioner candidate  
-- `COC20O`: Number of votes for 2020 other Corporation Commissioner candidates
-- `INS18D`: Number of votes for 2018 Democratic Commissioner of Insurance
-- `INS18R`: Number of votes for 2018 Republican Commissioner of Insurance
-- `LAB18D`: Number of votes for 2018 Democratic Commissioner of Labor
-- `LAB18R`: Number of votes for 2018 Republican Commissioner of Labor
-- `LAB18O`: Number of votes for 2018 other Commissioner of Labor
-- `LTG18D`: Number of votes for 2018 Democratic Lieutenant Governor
-- `LTG18R`: Number of votes for 2018 Republican Lieutenant Governor
-- `LTG18O`: Number of votes for 2018 other Lieutenant Governor
-- `PRE16D`: Number of votes for 2016 Democratic President
-- `PRE16O`: Number of votes for 2016 other party's President
-- `PRE16R`: Number of votes for 2016 Republican President
-- `PRE20D`: Number of votes for 2020 Democratic President
-- `PRE20R`: Number of votes for 2020 Republican President
-- `PRE20O`: Number of votes for 2020 other party's President
-- `SPI18D`: Number of votes for 2018 Democratic Superintendent of Public Instruction  
-- `SPI18O`: Number of votes for 2018 other party's Superintendent of Public Instruction  
-- `SPI18R`: Number of votes for 2018 Republican Superintendent of Public Instruction  
-- `TRE18O`: Number of votes for 2018 other party's Treasurer  
-- `TRE18R`: Number of votes for 2018 Republican Treasurer  
-- `USS16D`: Number of votes for 2016 Democratic Senate candidate  
-- `USS16O`: Number of votes for 2016 other party's Senate candidate  
-- `USS16R`: Number of votes for 2016 Republican Senate candidate  
-- `USS20D`: Number of votes for 2020 Democratic Senate candidate  
-- `USS20O`: Number of votes for 2020 other party's Senate candidate  
-- `USS20R`: Number of votes for 2020 Republican Senate candidate  
+- `ATG18O`: Number of votes for 2018 other party's attorney general candidate
+- `GOV18D`: Number of votes for 2018 Democratic gubernatorial candidate
+- `GOV18R`: Number of votes for 2018 Republican gubernatorial candidate
+- `GOV18O`: Number of votes for 2018 other party's gubernatorial candidate
+- `PRE20D`: Number of votes for 2020 Democratic presidential candidate
+- `PRE20R`: Number of votes for 2020 Republican presidential candidate
+- `PRE20O`: Number of votes for 2020 other party's presidential candidate
+- `SOS18D`: Number of votes for 2018 Democratic Secretary of State
+- `SOS18R`: Number of votes for 2018 Republican Secretary of State
+- `SOS18O`: Number of votes for 2018 other party's Secretary of State
+- `TRE18D`: Number of votes for 2018 Democratic Treasurer
+- `TRE18R`: Number of votes for 2018 Republican Treasurer
+- `TRE18O`: Number of votes for 2018 other party's Treasurer
+- `USS20D`: Number of votes for 2020 Democratic senate candidate
+- `USS20R`: Number of votes for 2020 Republican senate candidate
+- `USS20O`: Number of votes for 2020 other party's senate candidate
+- `COM18D`: Number of votes for 2018 Democratic Comptroller
+- `COM18R`: Number of votes for 2018 Republican Comptroller
+- `COM18O`: Number of votes for 2018 other party's Comptroller
