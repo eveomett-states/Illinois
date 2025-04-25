@@ -21,7 +21,9 @@ Obtain the following data from Restricting Data Hub
 
 [2020 election data](https://redistrictingdatahub.org/dataset/vest-2020-illinois-precinct-and-election-results/)**:**  VEST 2020 Illinois precinct and election results
 
-[2018 election data](https://redistrictingdatahub.org/dataset/2018-il-election-data-projected-to-2020-vtds/)**:**  VEST 2018 Illinois precinct and election results
+[2018 election data](https://redistrictingdatahub.org/dataset/vest-2018-illinois-precinct-and-election-results/)**:**  VEST 2018 Illinois precinct and election results
+
+[2016 election data](https://redistrictingdatahub.org/dataset/vest-2016-illinois-precinct-and-election-results/)**:**  VEST 2016 Illinois precinct and election results
 
 [2020 County data](https://redistrictingdatahub.org/dataset/illinois-county-pl-94171-2020/): from 2020 Census Redistricting Data (P.L. 94-171) Shapefiles
 
@@ -69,9 +71,18 @@ Below is a brief description of each of the listed variables in the attribute ta
 - `ATG18D`: Number of votes for 2018 Democratic attorney general candidate
 - `ATG18R`: Number of votes for 2018 Republican attorney general candidate
 - `ATG18O`: Number of votes for 2018 other party's attorney general candidate
+- `COM16D`: Number of votes for 2016 Democratic Comptroller candidate
+- `COM16R`: Number of votes for 2016 Republican Comptroller candidate
+- `COM16O`: Number of votes for 2016 other party's Comptroller candidate
+- `COM18D`: Number of votes for 2018 Democratic Comptroller candidate
+- `COM18R`: Number of votes for 2018 Republican Comptroller candidate
+- `COM18O`: Number of votes for 2018 other party's Comptroller candidate
 - `GOV18D`: Number of votes for 2018 Democratic gubernatorial candidate
 - `GOV18R`: Number of votes for 2018 Republican gubernatorial candidate
 - `GOV18O`: Number of votes for 2018 other party's gubernatorial candidate
+- `PRE16D`: Number of votes for 2016 Democratic presidential candidate
+- `PRE16R`: Number of votes for 2016 Republican presidential candidate
+- `PRE16O`: Number of votes for 2016 other party's presidential candidate
 - `PRE20D`: Number of votes for 2020 Democratic presidential candidate
 - `PRE20R`: Number of votes for 2020 Republican presidential candidate
 - `PRE20O`: Number of votes for 2020 other party's presidential candidate
@@ -81,9 +92,10 @@ Below is a brief description of each of the listed variables in the attribute ta
 - `TRE18D`: Number of votes for 2018 Democratic Treasurer
 - `TRE18R`: Number of votes for 2018 Republican Treasurer
 - `TRE18O`: Number of votes for 2018 other party's Treasurer
+- `USS16D`: Number of votes for 2016 Democratic senate candidate
+- `USS16R`: Number of votes for 2016 Republican senate candidate
+- `USS16O`: Number of votes for 2016 other party's senate candidate
 - `USS20D`: Number of votes for 2020 Democratic senate candidate
 - `USS20R`: Number of votes for 2020 Republican senate candidate
 - `USS20O`: Number of votes for 2020 other party's senate candidate
-- `COM18D`: Number of votes for 2018 Democratic Comptroller
-- `COM18R`: Number of votes for 2018 Republican Comptroller
-- `COM18O`: Number of votes for 2018 other party's Comptroller
+
