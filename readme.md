@@ -3,7 +3,7 @@ This data was generated using data from the Redistricting Data Hub.  Any use of 
 
 Use of this project is further governed by the terms of the [Creative Commons Attribution Noncommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/legalcode.en)
 
-# Illinois Election Json
+# Illinois Json and Shapefile
 
 This shapefile was processed by Professor Ellen Veomett and her student Arbie Hsu using the corresponding jupyter notebook.  As part of the cleaning process, precincts were nested within counties and small rook adjacencies (under 30.5 m) were changed to queen adjacencies.
 
